@@ -14,3 +14,7 @@ export class Person {
     return this.idade;
   }
 }
+
+function deco01(target) {
+  console.log(target);
+}
